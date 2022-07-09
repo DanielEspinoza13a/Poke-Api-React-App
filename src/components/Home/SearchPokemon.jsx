@@ -28,7 +28,7 @@ export const SearchPokemon = () => {
     <div>
       <form onSubmit={(e) => getPokeSearch(e)}>
         <div className="relative w-full text-gray-400 focus-within:text-gray-600 border rounded">
-          <div className="absolute inset-y-0 left-0 flex items-center cursor-pointer pl-4">
+          <div className="absolute inset-y-0 left-0 flex items-center pl-4">
             <SearchIcon className="h-5 w-5" aria-hidden="true" />
           </div>
           <input
