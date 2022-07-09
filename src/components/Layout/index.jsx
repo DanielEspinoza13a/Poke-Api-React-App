@@ -86,7 +86,7 @@ export default function Layout({ children }) {
                   <div className="flex-shrink-0 flex items-center px-4">
                     <img
                       className="h-auto w-36"
-                      src="/International_Pokémon_logo.png"
+                      src="/International_Pokémon_logo.webp"
                       alt="Pokemon"
                     />
                   </div>
@@ -129,7 +129,7 @@ export default function Layout({ children }) {
             <div className="flex items-center flex-shrink-0 px-4">
               <img
                 className="h-auto w-52"
-                src="/International_Pokémon_logo.png"
+                src="/International_Pokémon_logo.webp"
                 alt="Pokemon"
               />
             </div>
