@@ -28,7 +28,7 @@ const PokemonList = () => {
               </li>
               <li>
                 <img
-                  className="my-0 mx-auto"
+                  className="my-0 mx-auto h-24 w-24"
                   src={sprites.front_default}
                   alt={name}
                 />

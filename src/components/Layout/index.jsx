@@ -85,7 +85,7 @@ export default function Layout({ children }) {
                   </Transition.Child>
                   <div className="flex-shrink-0 flex items-center px-4">
                     <img
-                      className="h-auto w-36"
+                      className="h-14 w-36"
                       src="/International_Pokémon_logo.webp"
                       alt="Pokemon"
                     />
@@ -128,7 +128,7 @@ export default function Layout({ children }) {
           <div className="flex flex-col flex-grow pt-5 bg-indigo-700 overflow-y-auto">
             <div className="flex items-center flex-shrink-0 px-4">
               <img
-                className="h-auto w-52"
+                className="h-20 w-52"
                 src="/International_Pokémon_logo.webp"
                 alt="Pokemon"
               />
