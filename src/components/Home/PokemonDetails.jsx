@@ -8,7 +8,7 @@ const PokemonDetails = () => {
   return (
     <div className="pt-8">
       <Card>
-        <div className="flex justify-around">
+        <div className="flex justify-around flex-col sm:flex-row">
           <div className="flex flex-col items-center justify-center">
             <img className="w-24 h-24" src={pokemon.img} alt={pokemon.img} />
             <p className="text-base font-medium">{capitalize(pokemon.name)}</p>

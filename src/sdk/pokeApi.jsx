@@ -46,7 +46,7 @@ const listPokemon = async (page = 0) => {
 };
 
 const detailPokemon = async (name) => {
-  const data = await fetch(`https://pokeapi.co/api/v2/pokemon/${name}`);
+  const data = await fetch(`https://pokeapi.co/api/v2/pokemon/${name.toLowerCase()}`);
   const response = await data.json();
 
   return {
