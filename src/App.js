@@ -2,7 +2,7 @@ import React from "react";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 import Layout from "./components/Layout";
 import RoutesComponent from "./routes/Routes";
-import  ProviderPoke  from "./context/pokeStore";
+import ProviderPoke from "./context/pokeStore";
 
 function App() {
   return (
