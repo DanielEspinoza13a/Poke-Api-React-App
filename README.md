@@ -1,6 +1,14 @@
-# Fetch GitHub Organization Repos
+# Poke Api React App
 
 A React project that collects the [Pokemon Api](https://pokeapi.co/docs/v2) information, showing a full list of all Pokemon. 
+
+## Check it out live at [Heroku](https://pokeapi-periodic.herokuapp.com)
+
+## Screenshots
+
+<img src="https://user-images.githubusercontent.com/62059138/178122013-321c2b83-e37a-4674-b7c9-67440ee2371c.png" width="400" height="200">
+<img src="https://user-images.githubusercontent.com/62059138/178122047-aacc731e-3242-4f82-8ec2-87c56fe187f9.png" width="400" height="200">
+<img src="https://user-images.githubusercontent.com/62059138/178122062-0dd04191-34d6-49f8-9693-64851074f203.png" width="400" height="200">
 
 ## Features
 
@@ -9,8 +17,6 @@ A React project that collects the [Pokemon Api](https://pokeapi.co/docs/v2) info
 - Search bar to find any Pokemon that you want with its characteristics.
 - A full list of Pokeballs.
 - A full list of berries in Pokemon Saga.
-
-## Check it out live at [Heroku](https://pokeapi-periodic.herokuapp.com)
 
 ## How to run it?
 
