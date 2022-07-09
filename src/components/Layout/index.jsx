@@ -8,11 +8,17 @@ import {
   AtSymbolIcon,
 } from "@heroicons/react/outline";
 import { useLocation, Link } from "react-router-dom";
+import Footer from "./Footer";
 
 const navigation = [
   { name: "Home", href: "/", icon: HomeIcon, current: true },
   { name: "Berries", href: "/berries", icon: SparklesIcon, current: false },
-  { name: "PokeBalls", href: "/poke-balls", icon: AtSymbolIcon, current: false },
+  {
+    name: "PokeBalls",
+    href: "/poke-balls",
+    icon: AtSymbolIcon,
+    current: false,
+  },
 ];
 
 function classNames(...classes) {
@@ -177,6 +183,7 @@ export default function Layout({ children }) {
                 {children}
               </div>
             </div>
+            <Footer />
           </main>
         </div>
       </div>
